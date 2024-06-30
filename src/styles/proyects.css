@@ -1,0 +1,23 @@
+.proyect-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+.section-proyects{
+    padding-top: 6%;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+@media screen and (max-width: 768px){
+    
+    .proyect-container{
+        grid-template-columns: 1fr;
+
+    }
+    .section-proyects{
+        padding-top: 20%;
+       
+    }
+    
+}

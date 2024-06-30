@@ -1,0 +1,101 @@
+.square {
+    width: 8rem;
+    height: 8rem;
+    border-radius: 10px;
+    position: relative;
+}
+
+.square-1 {
+    top: 2rem;
+    left: 6rem;
+    rotate: 110deg;
+}
+
+.square-1 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    rotate: 270deg;
+}
+
+.square-2 {
+    top: -3rem;
+    right: 6rem;
+    rotate: 45deg;
+}
+
+.square-2 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    rotate: 270deg;
+}
+
+.square-3 {
+    bottom: 1rem;
+    left: 6rem;
+    rotate: 110deg;
+}
+
+.square-3 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    rotate: 270deg;
+    background-color: white;
+}
+
+.square-4 {
+    bottom: 5.6rem;
+    right: 5rem;
+    rotate: 45deg;
+}
+
+.square-4 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    rotate: 270deg;
+}
+
+.eclipse-box {
+    background: linear-gradient(10.86deg, rgba(255, 0, 0, 0.4) 19.880980253219604%, rgba(244, 1, 1, 0.84) 53.50461006164551%, rgb(253, 9, 9) 100%);
+    border-radius: 50%;
+    opacity: 0.800000011920929;
+    height: 350.99px;
+    width: 350.99px;
+    position: relative;
+    transform-origin: 0 0;
+    transform: rotate(-280.901deg) scale(1.006, 0.994);
+    filter: blur(100px);
+    z-index: -2;
+    left: 11rem;
+    bottom: 33rem;
+}
+
+@media screen and (max-width: 768px) {
+    .square {
+        display: none;
+    }
+
+    .content-about {
+        flex-direction: column;
+        grid-template-columns: 1fr;
+        padding: 0 !important;
+        margin-top: 3rem;
+    }
+    .about-content-1{
+        display: none;
+    }
+
+    .about-content-2 p{
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+
+    
+}
